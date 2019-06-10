@@ -1,9 +1,11 @@
 package ch.heigvd.mcr.bridgehack.player;
 
 import ch.heigvd.mcr.bridgehack.Map;
+import lombok.Setter;
 import org.newdawn.slick.*;
 
 public class Player {
+    @Setter
     private String name;
     private PlayerState playerState;
     private int x;
